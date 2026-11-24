@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Installed by deploy/install.sh. __HOME__ and __PY__ are replaced at install time. -->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.herrin.unifi-watch</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>__PY__</string>
+    <string>__HOME__/unifi-watch/unifi_watch.py</string>
+  </array>
+  <key>WorkingDirectory</key><string>__HOME__/unifi-watch</string>
+  <key>RunAtLoad</key><true/>
+  <key>KeepAlive</key><true/>
+  <key>ThrottleInterval</key><integer>30</integer>
+  <key>StandardOutPath</key><string>__HOME__/Library/Logs/unifi-watch.log</string>
+  <key>StandardErrorPath</key><string>__HOME__/Library/Logs/unifi-watch.err.log</string>
+</dict>
+</plist>

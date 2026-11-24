@@ -1,0 +1,19 @@
+{
+  "/v1/hosts": {
+    "data": [
+      {"id": "host-beach", "type": "console", "reportedState": {"name": "Beachfront", "hostname": "UCG-Max", "state": "connected"}},
+      {"id": "host-creek", "type": "console", "reportedState": {"name": "Creekside", "state": "connected"}},
+      {"id": "host-old", "type": "network-server", "reportedState": {"name": "HerrinGA Unifi Controller", "state": "disconnected"}}
+    ]
+  },
+  "/v1/sites": {
+    "data": [
+      {"siteId": "s1", "hostId": "host-beach", "meta": {"name": "default", "desc": "Default"},
+       "statistics": {"ispInfo": {"name": "AT&T Wireless"}, "percentages": {"wanUptime": 79.2},
+                      "wans": {"WAN": {"externalIp": "10.167.154.7"}}, "internetIssues": [{}],
+                      "counts": {"offlineDevice": 0}}},
+      {"siteId": "s2", "hostId": "host-creek", "meta": {"name": "default", "desc": "Default"},
+       "statistics": {"ispInfo": {"name": "AT&T Internet"}, "percentages": {"wanUptime": 100}}}
+    ]
+  }
+}
